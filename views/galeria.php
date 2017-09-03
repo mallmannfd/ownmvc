@@ -1,0 +1,1 @@
+<html>Segue abaixo as <?=$qtd?> Gelerias</html>

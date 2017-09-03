@@ -1,0 +1,14 @@
+version: '2'
+services:
+  web:
+   image: fbraz3/lnmp
+   volumes:
+    - .:/app/
+    - ./webserver.conf:/etc/nginx/sites-available/default
+   ports:
+    - "80:80"
+   networks:
+    - internal
+networks:
+ internal:
+   driver: bridge

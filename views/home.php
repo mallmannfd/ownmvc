@@ -1,0 +1,1 @@
+<h1>Você tem <?=$qtd?> Anúncios</h1>
